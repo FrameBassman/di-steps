@@ -1,4 +1,4 @@
-package tech.romashov.tests;
+package tech.romashov.tests.suite;
 
 import com.google.inject.Inject;
 import org.junit.Assert;
