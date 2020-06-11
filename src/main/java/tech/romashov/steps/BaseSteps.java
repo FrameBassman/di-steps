@@ -1,5 +1,8 @@
 package tech.romashov.steps;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class BaseSteps {
     public void loadCash() {
         System.out.println("Load cash");
