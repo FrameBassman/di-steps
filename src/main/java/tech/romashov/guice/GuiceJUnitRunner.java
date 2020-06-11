@@ -1,4 +1,4 @@
-package tech.romashov;
+package tech.romashov.guice;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

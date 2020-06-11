@@ -1,11 +1,9 @@
-package tech.romashov.tests.suite;
+package tech.romashov.guice;
 
 import com.google.inject.Inject;
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import tech.romashov.GuiceJUnitRunner;
-import tech.romashov.GuiceJUnitRunner.GuiceModules;
+import tech.romashov.guice.GuiceJUnitRunner.GuiceModules;
 import tech.romashov.steps.BaseSteps;
 import tech.romashov.steps.DiscountSteps;
 

@@ -1,4 +1,4 @@
-package tech.romashov.tests.suite;
+package tech.romashov.guice;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
