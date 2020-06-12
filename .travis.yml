@@ -1,0 +1,18 @@
+jobs:
+  include:
+    - stage: Test
+      language: java
+      dist: xenial
+      jdk: oraclejdk8
+      install:
+        - gradle assemble
+      script:
+        - gradle run
+
+stages:
+  - Test
+branches:
+  only:
+    - /.*/
+notifications:
+  email: false
