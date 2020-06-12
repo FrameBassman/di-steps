@@ -3,7 +3,7 @@ jobs:
     - stage: Test
       language: java
       dist: xenial
-      jdk: oraclejdk8
+      jdk: oraclejdk9
       install:
         - gradle assemble
       script:
