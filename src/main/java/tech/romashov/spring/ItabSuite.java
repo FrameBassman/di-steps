@@ -2,10 +2,10 @@ package tech.romashov.spring;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import tech.romashov.guice.DiscountTest;
+import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@Suite.SuiteClasses({
+@SuiteClasses({
         DiscountTest.class,
 })
 public class ItabSuite {
