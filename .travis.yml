@@ -7,7 +7,7 @@ jobs:
       install:
         - gradle assemble
       script:
-        - gradle run
+        - gradle run --info
 
 stages:
   - Test
