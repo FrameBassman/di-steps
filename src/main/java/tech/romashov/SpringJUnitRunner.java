@@ -1,4 +1,4 @@
-package tech.romashov.spring;
+package tech.romashov;
 
 import org.junit.runners.BlockJUnit4ClassRunner;
 import org.junit.runners.model.InitializationError;

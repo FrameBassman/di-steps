@@ -1,9 +1,10 @@
-package tech.romashov.spring;
+package tech.romashov.tests;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import tech.romashov.SpringJUnitRunner;
 import tech.romashov.steps.BaseSteps;
 import tech.romashov.steps.DiscountSteps;
 

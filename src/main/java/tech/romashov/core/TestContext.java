@@ -1,4 +1,4 @@
-package tech.romashov.spring;
+package tech.romashov.core;
 
 import org.springframework.stereotype.Service;
 
